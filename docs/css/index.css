@@ -1,0 +1,44 @@
+/* heading */
+h1 {
+  font-size: 1.75em;
+  margin: 50px auto;
+  text-align: center;
+}
+
+/* container */
+.box {
+  background-color: grey;
+  border: 1px solid black;
+  height: auto;
+  min-height: 100px;
+  margin: 10px;
+  position: relative;
+}
+
+/* dummy text */
+.box > p {
+  margin: 50px 30px 30px 30px;
+}
+
+/* section heading */
+.box > h2 {
+  font-size: 1.25em;
+  line-height: 30px;
+
+  border: 1px solid black;
+  height: 30px;
+  width: 150px;
+  text-align: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+#section1 h2 {
+  background-color: green;
+}
+#section2 h2 {
+  background-color: red;
+}
+#section3 h2 {
+  background-color: yellow;
+}
