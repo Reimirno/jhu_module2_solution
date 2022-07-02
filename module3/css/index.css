@@ -12,6 +12,9 @@ h1 {
   margin: 0;
 }
 /*FOOD, LLC*/
+.navbar > .container-fluid .navbar-brand {
+  margin-left: 0px;
+}
 .navbar-header .navbar-brand {
   text-decoration: none;
   color: black;
